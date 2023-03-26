@@ -10,6 +10,8 @@ encrypted_password = bcrypt.hashpw(password.encode(
 print(encrypted_password)  # bytes-string
 print(encrypted_password.decode("utf-8"))  # str 객체
 
+print("updated")
+
 """
 https://justkode.kr/python/flask-restapi-3 : Flask로 REST API 구현하기 참고 
     pip install bcrypt
